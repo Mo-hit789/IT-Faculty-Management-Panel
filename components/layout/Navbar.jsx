@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = ({ darkMode, setDarkMode }) => {
 
     return (
-        <div className='container flex flex-row items-center justify-between w-full mb-10 sticky top-0 z-30  backdrop-filter backdrop-blur-xl bg-opacity-0 md:px-[54px] px-2 pt-4 '>
+        <div className='container flex flex-row items-center justify-between w-full sticky top-0 z-30  backdrop-filter backdrop-blur-xl bg-opacity-1 md:px-[54px] px-2 py-4 '>
             <div className=''>
                 <h2 className='font-bold md:text-2xl text-lg bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 hover:animate-pulse hover:shadow-md rounded-md shadow-sm px-4 py-1 text-white'><Link href="/"><a>IT Department Of UIT RGPV</a></Link></h2>
             </div>
