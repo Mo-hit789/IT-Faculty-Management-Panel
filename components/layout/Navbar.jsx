@@ -15,7 +15,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <div className='flex flex-row justify-between items-center md:gap-6 gap-4'>
                 <div className='font-bold text-xl cursor-pointer flex flex-row items-center justify-start gap-4'>
                     <p className={`md:text-[16px] text-[15px] font-medium hover:text-blue-500 hover:border-b-[3px] hover:border-blue-500 }`} ><Link href="/research"><a>Research</a></Link></p>
-                    <p className={`md:text-[16px] text-[15px] font-medium hover:text-blue-500 hover:border-b-[3px] hover:border-blue-500 `} ><Link href="/faculty"><a>Faculty</a></Link></p>
+                    <p className={`md:text-[16px] text-[15px] font-medium hover:text-blue-500 hover:border-b-[3px] hover:border-blue-500 `} ><Link href="/department"><a>Faculty</a></Link></p>
                 </div>
                 <div className='flex flex-row justify-start items-center'>
                     <div onClick={() => { setDarkMode(!darkMode) }}>

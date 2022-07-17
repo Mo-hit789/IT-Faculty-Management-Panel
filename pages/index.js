@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/dist/client/link'
 
 const style = {
   wrapper: `relative h-screen`,
@@ -13,7 +14,7 @@ const index = () => {
           <div className='relative  md:text-[46px] md:font-bold sm:text-[28px] font-semibold text-[30px] leading-tight'>UNIVERSITY INSTITUTE OF TECHNOLOGY, RGPV</div>
           <div className='font-bold text-[25px] text-white'>Information Technology</div>
           <div className='flex'>
-            <button className='relative text-lg font-semibold px-10 py-2.5 border-2 bg-white border-[#2181e2] rounded-lg mr-5 text-blue-500 hover:text-white hover:bg-[#42a0ff] hover:border-[#42a0ff] cursor-pointer'>Department</button>
+            <button className='relative text-lg font-semibold px-10 py-2.5 border-2 bg-white border-[#2181e2] rounded-lg mr-5 text-blue-500 hover:text-white hover:bg-[#42a0ff] hover:border-[#42a0ff] cursor-pointer'><Link href="/department"><a>Department</a></Link></button>
             <button className=' relative text-lg font-semibold px-10 py-2.5 rounded-lg mr-5 text-white bg-[#42a0ff]  cursor-pointer'>Faculty</button>
           </div>
         </div>

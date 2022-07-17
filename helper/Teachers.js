@@ -6,6 +6,7 @@ export const Teachers = [
         "course": "Soft Computing, Digital Communication, , Communication system, Wireless & Mobile computing",
         "specialization": "Image Processing, Digital Communication",
         "experience": "23",
+        "url":"http://localhost:3000/faculty/asmita",
         "research": [
             {
                 "title": "Brain Tumor detection and classification in MRI Images Using Image & Data Mining",
