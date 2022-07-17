@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile from '../../components/faculty/Profile'
-import { Teachers } from '../../helper/teachers';
+import { Teachers } from '../../helper/Teachers';
 
 const Asmita = () => {
   const t = Teachers[1]
