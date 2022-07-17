@@ -23,8 +23,8 @@ const index = () => {
                 <div className='w-[70%] py-4'>
                     {Teachers.map((t) => {
                         return (
-                            <div className='my-4 p-4 shadow-lg rounded-md bg-gray-700'>
-                                <Profile name={t.name} role={t.designation} course={t.course} spec={t.specialization} exp={t.experience} url={t.url}/>
+                            <div className='my-4 p-4 shadow-lg rounded-md bg-gray-700' key={Math.random()}>
+                                <Profile name={t.name} role={t.designation} course={t.course} spec={t.specialization} exp={t.experience} url={t.url} img={t.img} />
                             </div>
 
                         )

@@ -1,3 +1,4 @@
+//import ashmita from "../../assets/ashmita.jpeg"
 
 export const Teachers = [
     {
@@ -7,7 +8,7 @@ export const Teachers = [
         "course": "Computer Networks, Cyber Law and Forensics, Internet Technology and Network Management",
         "specialization": "Networking and Communication",
         "experience": "28",
-        "url":"http://localhost:3000/faculty/asmita",
+        "url": "http://localhost:3000/faculty/asmita",
         "research": [
             {
                 "title": "",
@@ -27,7 +28,7 @@ export const Teachers = [
             }
         ]
     },
-    
+
     {
         "name": "Dr. Asmita A. Amoghe",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
@@ -35,7 +36,7 @@ export const Teachers = [
         "course": "Soft Computing, Digital Communication, , Communication system, Wireless & Mobile computing",
         "specialization": "Image Processing, Digital Communication",
         "experience": "23",
-        "url":"http://localhost:3000/faculty/asmita",
+        "url": "/faculty/asmita",
         "research": [
             {
                 "title": "Brain Tumor detection and classification in MRI Images Using Image & Data Mining",
@@ -89,11 +90,10 @@ export const Teachers = [
             }
 
         ]
-    }
- ]
-},
-     {
-       "name": "Dr. Anjana Pandey",
+    },
+
+    {
+        "name": "Dr. Anjana Pandey",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Data Mining & Warehousing, E - Commerce  & E-Governance",
@@ -118,10 +118,10 @@ export const Teachers = [
             }
         ]
     },
-      
 
-         {
-       "name": "Dr. Ratish Agarwal",
+
+    {
+        "name": "Dr. Ratish Agarwal",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Digital Circuits & Systems, Computer Architecture",
@@ -146,9 +146,9 @@ export const Teachers = [
             }
         ]
     },
-        
-              {
-       "name": "Dr. Mahesh Pawar",
+
+    {
+        "name": "Dr. Mahesh Pawar",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Database Management System, Distributed system",
@@ -174,9 +174,9 @@ export const Teachers = [
         ]
     },
 
-        
-        {
-       "name": "Ms. Neera Lal",
+
+    {
+        "name": "Ms. Neera Lal",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": " Data Structures, Analysis and Design of Algorithms, Fundamental of IT, Environmental Science",
@@ -200,10 +200,10 @@ export const Teachers = [
                 "doi": ""
             }
         ]
-    }, 
-         
+    },
+
     {
-       "name": "Ms. Ekta Shrivastava",
+        "name": "Ms. Ekta Shrivastava",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "OOAD, JAVA, FOCSE, EOITK, Web Tech",
@@ -228,10 +228,10 @@ export const Teachers = [
             }
         ]
     },
-           
-        
-         {
-       "name": "Ms. Shifa Manihar",
+
+
+    {
+        "name": "Ms. Shifa Manihar",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Operating System, Discrete Structures, Compiler Designh",
@@ -256,9 +256,9 @@ export const Teachers = [
             }
         ]
     },
-  
-       {
-       "name": "Mr. Mahendra Yadav",
+
+    {
+        "name": "Mr. Mahendra Yadav",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Fundamental of Computer Science & engg., OOAD, Artificial Intelligence, CSO, Microprocessor",
@@ -282,10 +282,10 @@ export const Teachers = [
                 "doi": ""
             }
         ]
-    },    
+    },
 
-          {
-       "name": "Mr. Vikas Kumar Rohit",
+    {
+        "name": "Mr. Vikas Kumar Rohit",
         "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
         "designation": "Associate Professor",
         "course": "Object Oriented Programming & Methodology, Computer Graphics & Multimedia, Artificial Intelligence, Soft Computing, Data Science, Cloud Computing",
@@ -309,19 +309,20 @@ export const Teachers = [
                 "doi": ""
             }
         ]
-    },    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

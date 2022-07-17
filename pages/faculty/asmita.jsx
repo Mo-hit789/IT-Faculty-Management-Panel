@@ -3,11 +3,11 @@ import Profile from '../../components/faculty/Profile'
 import { Teachers } from '../../helper/teachers';
 
 const Asmita = () => {
-  const t = Teachers[0]
+  const t = Teachers[1]
   console.log(t)
   return (
     <div className='max-w-[80%] m-auto h-full py-8'>
-      <Profile name={t.name} role={t.designation} course={t.course} exp={t.experience} spec={t.specialization} />
+      <Profile name={t.name} role={t.designation} course={t.course} exp={t.experience} spec={t.specialization} img={t.img} />
       <h2 className='text-2xl font-bold  py-4'>Research</h2>
       <div className='flex flex-col gap-4 w-[70%] '>
         {t.research.map((f) => {
