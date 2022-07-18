@@ -94,7 +94,7 @@ export const Teachers = [
 
     {
         "name": "Dr. Anjana Pandey",
-        "img": "https://photovideolounge.com/wp-content/uploads/2019/11/blonde-girl-in-blue-neutral-facial-expression-1.jpg",
+        "img": "https://raw.githubusercontent.com/Mo-hit789/minor_faculty_photos/main/anjana.jpg",
         "designation": "Associate Professor",
         "course": "Data Mining & Warehousing, E - Commerce  & E-Governance",
         "specialization": "Data Mining, Social Network",
