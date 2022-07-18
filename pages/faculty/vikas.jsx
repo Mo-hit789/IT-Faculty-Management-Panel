@@ -3,7 +3,7 @@ import Profile from '../../components/faculty/Profile'
 import { Teachers } from '../../helper/teachers';
 
 const Asmita = () => {
-  const t = Teachers[1]
+  const t = Teachers[10]
   console.log(t)
   return (
     <div className='max-w-[80%] m-auto h-full py-8'>
